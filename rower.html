@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ogłoszenie</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body,
+      html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .listing {
+        width: 50%;
+        height: 75%;
+        background-color: whitesmoke;
+        box-shadow: -2px 4px 10px lightgray;
+        border-radius: 50px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+      }
+
+      .listing img {
+        width: 50%;
+        height: auto;
+      }
+
+      hr {
+        margin: 30px 0px 30px 0px;
+        width: 25%;
+      }
+      p {
+        width: 50%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="listing">
+      <h1>Sprzedam rower!</h1>
+      <hr />
+
+      <img src="images/bike.jpeg" alt="rower" />
+      <hr />
+      <p>
+        Dzień dobry, mam na sprzedaz rower renomowanej marki <b><u>SCOTT</u></b
+        >. Rower kupiłem około pół roku temu w Decathlonie.
+        <hr />
+        <u>Osprzęt:</u>
+        <ul>
+          <li>
+            Przerzutki: Shimano Speedster 1234
+          </li>
+          <li>
+            Opony: Terenowe
+          </li>
+          <li>
+            Siodełko: wygodne
+          </li>
+          <li>
+            Oświetlenie: Wyścigowe
+          </li>
+        </ul>
+      </p>
+      <hr />
+      <h2>Cena: </h2>
+      <h3><s>1999zł</s></h3>
+      <h1 style="color:red">1499zł</h1>
+    </div>
+  </body>
+</html>
