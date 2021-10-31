@@ -1,130 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&display=swap");
 * {
-  background-color: #131319;
-  color: whitesmoke !important;
-}
-body,
-html {
-  background-color: #131319;
-  color: whitesmoke !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 #mainNav {
-  background-color: #131319;
-  border-bottom: 1px solid whitesmoke;
-  box-shadow: -2px 4px 10px white;
-}
-
-.masthead {
-  background-color: #131319;
-}
-
-body > header > div {
-  border-radius: 30px;
-  padding: 15px;
-}
-
-#col-md-6 {
-  box-shadow: -2px 4px 10px white;
-  background-color: red !important;
-}
-
-#features > div > div > div.col-lg-8.order-lg-1.mb-5.mb-lg-0 {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  background-color: transparent !important;
 }
 
-#features
-  > div
-  > div
-  > div.col-lg-8.order-lg-1.mb-5.mb-lg-0
-  > div
-  > div:nth-child(2)
-  > div.col-md-6.mb-5.mb-md-0
-  > div
-  > i {
-  background-color: white !important;
-}
-
-.text-gradient {
-  background: white;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: white;
-}
-
-.fixed-top {
-  display: flex;
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
   justify-content: center;
-  align-items: center;
-  width: 50%;
-  margin: 0 25% 0 25%;
-  position: absolute;
-  right: 100%;
+  background-color: whitesmoke;
+  box-shadow: -2px 4px 10px lightgrey;
+
+  color: black !important;
+  width: auto !important;
+  border-radius: 20px !important;
+  padding: 5px;
 }
 
-#features > div > div > div.col-lg-8.order-lg-1.mb-5.mb-lg-0 {
-  width: 100%;
-  padding: 0 10% 10% 10%;
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: black;
 }
 
-#features > div > div > div.col-lg-4.order-lg-0 {
-  display: none;
-}
-
-body > section.cta > div {
-  background-color: transparent !important;
-}
-
-#download > div {
-  background-color: transparent !important;
-}
-
-#download > div > div {
-  background-color: transparent !important;
-}
-
-#download > div > h2 {
-  background-color: transparent !important;
-}
-
-body > header > div > div > div:nth-child(1) > div > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#bg-light {
-  background-color: grey !important;
-  border-radius: 30px;
-}
-
-body > section.bg-light > div {
-  border-radius: 30px;
-  padding: 50px;
-  box-shadow: -2px 4px 10px grey;
-}
-
-body > aside {
-  display: none;
-}
-
-.cta_content {
-  background-color: red !important;
-}
-
-body > section.cta > div > div {
-  background-color: transparent !important;
-}
-body > section.cta > div > div > h2 {
-  background: transparent !important;
-}
-
-#navbarResponsive > button {
-  background-color: transparent !important;
-}
-
-#navbarResponsive > button > span {
-  background-color: transparent;
+.page-section {
+  padding: 5rem 0;
 }
